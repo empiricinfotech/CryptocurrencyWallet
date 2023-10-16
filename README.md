@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+# CryptoWallet
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+A web cryptocurrency wallet is a convenient and accessible solution for managing your digital assets in the world of cryptocurrencies. It is a software application that operates within your web browser, allowing you to interact with your crypto holdings from any internet-connected device. Here are some key features and aspects of a web cryptocurrency wallet:
+
+# Tech Stacks
+1. Backend Framework: Node.js
+2. Frontend Framework: JavaScript, React.js, Tailwind CSS
+3. DataStore: Redux
+4. Blockchain Infrastructure [infura provider]
+
+# Features
+
+
+1.Create a New Account Users can easily create a new crypto account in just a few steps. This account serves as their digital wallet to store and manage cryptocurrencies securely.
+
+2.Delete Account Users have the option to delete their crypto account. Make sure to inform users about the implications of this action, as it permanently erases their account and its associated funds.
+
+3.Recover Account In case a user accidentally deletes their account, our wallet provides a recovery mechanism to help them regain access to their funds. Ensure you detail the recovery process, such as using a recovery phrase or other security measures.
+
+4.Lock and Unlock Account Users can lock and unlock their accounts as needed. Locking an account adds an extra layer of security to protect their assets.
+
+5.Transaction History Our wallet keeps a detailed history of all previous transactions. Users can easily view their transaction history, including date, time, transaction type (send or receive), and amount.
+
+6.Transfer and Receive Cryptocurrency Users can transfer cryptocurrency to other users by providing the recipient's wallet address. They can also receive cryptocurrency from others using their wallet address.
+  
+
+# Install dependencies
+## Getting Started
 
 In the project directory, you can run:
+1. Install dependencies Backend:
 
-### `npm start`
+   ```bash
+   
+   npm install
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Run Project:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+   ```bash
+   
+   npm start
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Lock Wallet
+![lockWallet](https://github.com/divyesh1021/CryptoWallet/assets/123168821/0a66923c-ca3a-4a66-b7b9-f34897004737)
 
-### `npm run build`
+## Unlock Wallet
+![unlockWallet](https://github.com/divyesh1021/CryptoWallet/assets/123168821/ad9f0ab2-5288-4a1a-b394-33467dfb20a3)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## DashBoard
+![Home](https://github.com/divyesh1021/CryptoWallet/assets/123168821/ca1b19e5-ae58-4bfa-bcbf-67acc1d75dd2)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Select network
+![selectNetwork](https://github.com/divyesh1021/CryptoWallet/assets/123168821/7e46e459-3ed0-43a1-a647-d6876488cfb5)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Add Account
+![Wallet](https://github.com/divyesh1021/CryptoWallet/assets/123168821/e481e77a-69c4-44c4-92d2-50ac0e27dd83)
 
-### `npm run eject`
+## Download Account Phase
+![downloadPhase](https://github.com/divyesh1021/CryptoWallet/assets/123168821/340a6c3a-4bf8-49e7-9dae-54160e96376a)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Recover Phase
+![recoveryPhase](https://github.com/divyesh1021/CryptoWallet/assets/123168821/270b1692-2af5-492f-8ab7-7108460dddff)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Import Account
+![ImportAccount](https://github.com/divyesh1021/CryptoWallet/assets/123168821/2a7b4725-6864-4c44-93b8-fdd0f7552b92)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Private Key
+![privateKey](https://github.com/divyesh1021/CryptoWallet/assets/123168821/a6c8c64f-fd96-4bdd-b469-11fd947473c4)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Delete Account
+![deleteAccount](https://github.com/divyesh1021/CryptoWallet/assets/123168821/cb07f6e9-7743-46e2-ac9f-3ce29b2bc37b)
